@@ -35,7 +35,7 @@
 
 <!-- === Navigation Bar (Vertical) Starts === -->
 <div class="navbar-vertical">
-  <a href="#"><img src="assets/figures/fanlu.jpg" width=100px class="rounded-circle img-thumbnail"></a>
+  <a href="#"><img src="assets/figures/fanlu_v1.jpg" width=100px class="rounded-circle img-thumbnail"></a>
   <h5 class="mt-10">Fan Lu</h5>
   <!-- <h5 class="mt-10">(Damon)</h5> -->
   <ul class="nav flex-column mt-20">
@@ -72,11 +72,11 @@
 <!-- === Home Section Starts === -->
 <div id="home" class="section">
   <div class="text-center pt-50">
-    <a href="#"><img src="assets/figures/fanlu.jpg" width=200px class="rounded-circle img-thumbnail"></a>
+    <a href="#"><img src="assets/figures/fanlu_v1.jpg" width=200px class="rounded-circle img-thumbnail"></a>
   </div>
   <div class="title">About Me</div>
   <p>
-    I am currently a second-year Ph.D. student in 
+    I am currently a third-year Ph.D. student in 
     <a href="https://ispc-group.github.io/" target="_blank">Intelligent Sensing, Perception and Computing (ISPC) Group</a> 
     of Tongji University and supervised by Prof. Guang Chen. Before that, I received my bachelor's
     degree of Automotive Engineering in Tongji University in 2020. My research interests mainly focus on
@@ -87,9 +87,11 @@
   
   <div class="title">News</div>
   <ul>
-    <li>[2021/07] One paper got accepted by ICCV 2021.</li>
-    <li>[2020/12] One paper got accepted by AAAI 2021.</li>
-    <li>[2020/09] One paper got accepted by NeurIPS 2020.</li>
+    <li>[2023] One paper got accepted by IEEE T-PAMI (IF=24.314).</li>
+    <li>[2021] Two papers got accepted by IEEE T-VT (IF=6.239) and IEEE T-ITS (IF=9.551).</li>
+    <li>[2021] One paper got accepted by ICCV 2021.</li>
+    <li>[2020] One paper got accepted by AAAI 2021.</li>
+    <li>[2020] One paper got accepted by NeurIPS 2020.</li>
   <!-- </ul> -->
 </div>
 <!-- === Home Section Ends === -->
@@ -118,6 +120,9 @@
 <div id="experience" class="section">
   <div class="title mb-20">Experiences</div>
   <ul>
+    <li><b>Sensetime Research</b></li>
+    Research Intern
+    <br>
     <li><b>JD Explore Academy</b></li>
     Research Intern
 
@@ -134,16 +139,37 @@
 </div>
 <!-- === Experience Section Ends === -->
 
-
 <!-- === Project Section Starts === -->
 <div id="publication" class="section">
   <div class="title">Publications</div>
+
+  <div class="item">
+    <div class="image">
+      <img src="assets/figures/sdmnet.png">
+    </div>
+    <div class="text">
+      <a href="https://ieeexplore.ieee.org/document/10097640/" target="_blank">
+        <b>Sparse-to-Dense Matching Network for Large-scale LiDAR Point Cloud Registration</b></a><br>
+      <b>Fan Lu</b>, Guang Chen<sup>*</sup>, Yinlong Liu, Yibing Zhan, Zhijun Li, Dacheng Tao, Changjun Jiang<br>
+      IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), 2023 <br>
+      [<a href="https://ieeexplore.ieee.org/document/10097640/", target="_blank">Pdf</a>]
+      <!-- [<a href="https://ieeexplore.ieee.org/document/10097640/", target="_blank">Pdf</a>] -->
+      <!-- [<a href="", target="_blank">Code</a>]<br> -->
+      <br>
+      This paper proposes a novel Sparse-to-Dense Matching Network (SDMNet) for large-scale outdoor LiDAR point cloud registration. 
+      Specifically, SDMNet performs registration in two sequential stages: sparse matching stage and local-dense matching stage. 
+      We design a novel neighborhood matching module to incorporate local neighborhood consensus, significantly improving performance. 
+      The local-dense matching stage is followed for fine-grained performance. 
+      Extensive experiments on three large-scale outdoor LiDAR point cloud datasets demonstrate that the proposed SDMNet achieves state-of-the-art performance with high efficiency.<br>
+    </div>
+  </div>
+
   <div class="item">
     <div class="image">
       <img src="assets/figures/hregnet.png">
     </div>
     <div class="text">
-      <a href="" target="_blank">
+      <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Lu_HRegNet_A_Hierarchical_Network_for_Large-Scale_Outdoor_LiDAR_Point_Cloud_ICCV_2021_paper.pdf" target="_blank">
         <b>HRegNet: A Hierarchical Network for Large-scale Outdoor LiDAR Point Cloud Registration</b></a><br>
       <b>Fan Lu</b>, Guang Chen<sup>*</sup>, Yinlong Liu, Lijun Zhang, Sanqing Qu, Shu Liu, Rongqi Gu<br>
       International Conference on Computer Vision (ICCV), 2021 <br>
@@ -185,7 +211,7 @@
       <a href="https://arxiv.org/abs/2012.10066" target="_blank">
         <b>PointINet: Point Cloud Frame Interpolation Network</b></a><br>
       <b>Fan Lu</b>, Guang Chen<sup>*</sup>, Sanqing Qu, Zhijun Li, Yinlong Liu, Alois Knoll<br>
-      Thirty-Fifth AAAI Conference on Artificial Intelligence, 2021 <br>
+      Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI), 2021 <br>
       [<a href="https://arxiv.org/pdf/2012.10066.pdf", target="_blank">Paper</a>]
       [<a href="https://github.com/ispc-lab/PointINet", target="_blank">Code</a>]<br>
       We propose a novel framework, namely Point Cloud Frame Interpolation Network (PointINet). 
@@ -193,20 +219,36 @@
     </div>
   </div>
 
-  <div class="subtitle">Pre-Prints</div>
   <div class="item">
     <div class="image">
       <img src="assets/figures/monet.png">
     </div>
     <div class="text">
-      <a href="https://arxiv.org/abs/2011.10812" target="_blank">
+      <a href="https://ieeexplore.ieee.org/abstract/document/9652466" target="_blank">
         <b>MoNet: Motion-based Point Cloud Prediction Network</b></a><br>
       <b>Fan Lu</b>, Guang Chen<sup>*</sup>, Yinlong Liu, Zhijun Li, Sanqing Qu, Tianpei Zou<br>
-      [<a href="https://arxiv.org/pdf/2011.10812.pdf", target="_blank">Paper</a>]
+      IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2021 <br>
+      [<a href="https://ieeexplore.ieee.org/abstract/document/9652466", target="_blank">Paper</a>]
+      [<a href="https://github.com/ispc-lab/MoNet", target="_blank">Code</a>]<br>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="image">
+      <img src="assets/figures/pole.png">
+    </div>
+    <div class="text">
+      <a href="https://ieeexplore.ieee.org/abstract/document/9548787" target="_blank">
+        <b>Pole-Curb Fusion Based Robust and Efficient Autonomous Vehicle Localization System With Branch-and-Bound Global Optimization and Local Grid Map Method</b></a><br>
+      Guang Chen, <b>Fan Lu</b>, Zhijun Li, Yinlong Liu, Jinhu Dong, Junqiao Zhao, Junwei Yu, Alois Knoll<br>
+      IEEE Transactions on Vehicular Technology (T-VT), 2021 <br>
+      [<a href="https://ieeexplore.ieee.org/abstract/document/9548787", target="_blank">Paper</a>]
       <!-- [<a href="", target="_blank">Code</a>]<br> -->
       
     </div>
   </div>
+
+  <!-- <div class="subtitle">Pre-Prints</div> -->
 
 </div>
 <!-- === Project Section Ends === -->
