@@ -33,6 +33,14 @@
     </item>
     
     <item>
+      <title>Urban Architect: Steerable 3D Urban Scene Generation with Layout Prior</title>
+      <link>https://example.com/publication/urbanarch-arxiv2024/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/urbanarch-arxiv2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Urban Radiance Field Representation with Deformable Neural Mesh Primitives</title>
       <link>https://example.com/publication/dnmp-iccv23/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
@@ -288,7 +296,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-376418259&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-475129836&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -298,7 +306,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-376418259&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-475129836&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
